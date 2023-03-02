@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #e2a139, #f9d423);
+}
+
+.toss-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  max-height: 50vh;
+  max-width: 30vw;
+  border-radius: 10px;
+  padding: 10px;
+}
+@media screen and (min-width: 768px) {
+  .toss-container {
+    min-width: 400px;
+    min-height: 600px;
+  }
+}
+.heading {
+  color: #a35200;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 50px;
+  }
+}
+.heads-tails {
+  font-family: 'Roboto';
+  color: #334155;
+}
+@media screen and (min-width: 768px) {
+  .heads-tails {
+    font-size: 30px;
+  }
+}
+.toss-image {
+  max-height: 100px;
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .toss-image {
+    min-height: 200px;
+    min-width: 200px;
+  }
+}
+.button {
+  background-color: #f9d423;
+  color: #e2a139;
+  border: none;
+  font-family: 'Roboto';
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 20px;
+  }
+}
+.toss-count-container {
+  display: flex;
+}
+.toss-count {
+  font-family: 'Roboto';
+  padding-right: 20px;
+}
+@media screen and (min-width: 768px) {
+  .toss-count {
+    font-size: 20px;
+  }
+}
